@@ -3,13 +3,13 @@
  *                 A class to easily build forms                                 *
  * Contains the basic most used html-form-elements and attributes.               *
  * @author AMKuperus                                                             *
- * @version 0.4Beta  | Last revision: 15 July 2017                               *
+ * @version 0.4Beta  | Last revision: 16 July 2017                               *
  * @license GPL Do not alter or reproduce without the knowledge of the author.   *
  * @todo add more input-elements                                                 *
  * @todo implement values for value-keeping when form is not filled in correct   *
  * @todo implement class/id options for hooking to css                           *
  *********************************************************************************/
-namespace Form;
+namespace Tools;
 
 class FormBuilder {
   private $start = [];
